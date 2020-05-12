@@ -1,0 +1,89 @@
+html {
+  scroll-behavior: smooth;
+  background-color: gray;
+}
+
+* {
+  margin:0;
+  padding:0;
+}
+
+.font{
+  font-family: 'Oswald', sans-serif;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.light{
+  font-weight:lighter;
+}
+
+.page{
+  padding: 1rem;
+}
+
+.white{
+  color:white;
+}
+
+.large {
+  font-size: 3em;
+}
+
+.med{
+  font-size:1.5em;
+}
+
+.small{
+  font-size:1.25em;
+}
+
+.block{
+  padding: 4em 1.5em;
+  text-align:left;
+  margin: 0 auto 2.5em;
+  line-height:2;
+}
+
+ul{
+  list-style-type: none !important;
+  overflow: hidden;
+  margin: 0px 0px 10px 0px;
+  background-color:#353638;
+  color:white;
+}
+
+.list li{
+  float: left;
+}
+
+.list li a{
+  display: block;
+  text-align cneter;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.list li a:hover {
+  background-color: black;
+  color:white;
+}
+
+.list li a:visited {
+  color:white;
+}
+
+#home{
+  background-image: url(https://raw.githubusercontent.com/NeubriteKingdom/NeubriteKingdom.github.io/master/pictures/2019-04-24_14.45.28.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+#playerlist {
+  display:inline-block;
+  padding:4em;
+
+}
+;
