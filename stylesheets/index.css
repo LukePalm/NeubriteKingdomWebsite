@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  background-color: gray;
+  background-color: #dfe6ed;
 }
 
 * {
@@ -47,6 +47,22 @@ html {
   line-height:2;
 }
 
+button{
+  
+  border-radius: 0.45em;
+  text-align: cneter;
+  background-color: #b2d5f7;
+  color: white;
+  margin-top: 1rem;
+  margin-left: 18rem;
+  margin-right: 18rem;
+  font-weight: bold;
+  border-color: black;
+  border-width: 0.15em;
+
+
+}
+
 ul{
   list-style-type: none !important;
   overflow: hidden;
@@ -61,7 +77,7 @@ ul{
 
 .list li a{
   display: block;
-  text-align cneter;
+  text-align center;
   padding: 14px 16px;
   text-decoration: none;
 }
