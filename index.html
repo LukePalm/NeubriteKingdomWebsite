@@ -83,16 +83,19 @@ The severity of the rules broken will determine the length of punishment, you ca
 
     <div class="row">
     <div class="column">
-      <img src="pictures/Gallery2" alt="Nature" onclick="myFunction(this);">
+        <img src="pictures/Gallery1.png" alt="Nature" onclick="myFunction(this);">
     </div>
     <div class="column">
-      <img src="pictures/Gallery3" alt="Snow" onclick="myFunction(this);">
+      <img src="pictures/Gallery2.png" alt="Nature" onclick="myFunction(this);">
     </div>
     <div class="column">
-      <img src="pictures/Gallery4" alt="Mountains" onclick="myFunction(this);">
+      <img src="pictures/Gallery3.png" alt="Snow" onclick="myFunction(this);">
     </div>
     <div class="column">
-      <img src="pictures/Gallery5" alt="Lights" onclick="myFunction(this);">
+      <img src="pictures/Gallery4.png" alt="Mountains" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="pictures/Gallery5.png" alt="Lights" onclick="myFunction(this);">
     </div>
   </div>
 
@@ -107,6 +110,15 @@ The severity of the rules broken will determine the length of punishment, you ca
     <!-- Image text -->
     <div id="imgtext"></div>
   </div>
+  <script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
   </section>
 
   <section id= "form">
