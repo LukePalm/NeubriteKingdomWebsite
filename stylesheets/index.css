@@ -21,13 +21,25 @@ html {
 }
 
 .page{
-  padding: 1rem;
+  padding: 0rem;
+  margin: ;
+
 }
 
 .white{
   color:white;
 }
 
+.black {
+  color: black;
+}
+
+.outline {
+  text-shadow: -1px -1px 0 black,
+               1px -1px 0 black,
+               -1px 1px 0 black,
+               1px 1px 0 black;
+}
 .large {
   font-size: 3em;
 }
@@ -48,7 +60,7 @@ html {
 }
 
 button{
-  
+
   border-radius: 0.45em;
   text-align: cneter;
   background-color: #b2d5f7;
@@ -91,15 +103,10 @@ ul{
   color:white;
 }
 
-#home{
-  background-image: url(https://raw.githubusercontent.com/NeubriteKingdom/NeubriteKingdom.github.io/master/pictures/2019-04-24_14.45.28.png);
+#homepage{
+  background-image: "pictures/banner-image.jpg";
   background-repeat:no-repeat;
-  background-size:cover;
-}
-
-#playerlist {
-  display:inline-block;
-  padding:4em;
-
+  background-size:flex;
+  padding: 10rem 10rem;
 }
 ;
